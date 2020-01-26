@@ -1,0 +1,97 @@
+
+
+.container {
+  height: 100% !important;
+  position: relative !important;
+}
+
+form.entry-form {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: 78vh !important;
+}
+
+.row.no-padding {
+  margin-left: -0.75rem !important;
+  margin-right: -0.75rem !important;
+}
+
+.textarea-rows {
+  min-height: 58px !important;
+}
+
+.sidenav {
+  transition: all 0.3s ease-in-out!important;
+}
+
+.brand-logo {
+  position: relative !important;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+
+.App .sidenav li > a.btn {
+  padding: 0 !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
+::placeholder {
+  color: rgb(143, 143, 143)!important; 
+}
+
+.main-nav {
+  margin-bottom: 40px!important;
+}
+
+.main-nav ul {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.main-nav ul::after {
+  content: ""!important;
+  display: table!important;
+  clear: both!important;
+}
+
+.main-nav ul li {
+  float: none !important;
+}
+
+
+.capitalize {
+  text-transform: capitalize!important;
+}
+
+.mb-20 {
+  margin-bottom: 20px!important;
+}
+
+.mt-20 {
+  margin-top: 20px!important;
+}
+
+.mr-20 {
+  margin-right: 20px!important;
+}
+
+.mr-30 {
+  margin-right: 30px!important;
+}
+
+.ml-20 {
+  margin-left: 20px!important;
+}
+
+.ml-30 {
+  margin-left: 30px!important;
+}
+
+.pos-r {
+  position: relative!important;
+}
